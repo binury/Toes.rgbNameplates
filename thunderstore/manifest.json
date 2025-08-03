@@ -1,9 +1,9 @@
 {
-  "name": "RGBNameplates",
-  "version_number": "0.0.1",
-  "website_url": "https://github.com/binury/Toes.rgbNameplates",
-  "description": "Colored nameplates!",
-  "dependencies": [
-    "toes-Socks-0.3.3"
-  ]
+    "name":  "RGBNameplates",
+    "version_number":  "0.0.2",
+    "website_url":  "https://github.com/binury/Toes.rgbNameplates",
+    "description":  "Whoa, colored nameplates",
+    "dependencies":  [
+                         "toes-Socks-0.3.3"
+                     ]
 }
