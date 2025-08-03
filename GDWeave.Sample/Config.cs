@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace MyModName;
+namespace RGBNameplates;
 
 public class Config(ConfigFileSchema configFile)
 {

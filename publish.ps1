@@ -2,8 +2,8 @@
 
 param(
     [string]$Configuration = "Release",
-    [string]$ProjectPath = ".\GDWeave.Sample\MyModName.csproj",
-    [string]$GDWeavePath = "C:\Program Files (x86)\Steam\teamapps\common\WEBFISHING\GDWeave"
+    [string]$ProjectPath = ".\GDWeave.Sample\RGBNameplates.csproj",
+    [string]$GDWeavePath = "C:\Program Files (x86)\Steam\steamapps\common\WEBFISHING\GDWeave"
 )
 
 # Clean and build
@@ -26,7 +26,7 @@ $gitTagOrHash = if (git describe --exact-match --tags HEAD 2>$null) {
 } else {
     git rev-parse --short HEAD
 }
-$zipPath = ".\thunderstore\myModName_$gitTagOrHash.zip"
+$zipPath = ".\thunderstore\RGBNameplates_$gitTagOrHash.zip"
 Compress-Archive -Path @(
    ".\thunderstore\GDWeave",
    ".\thunderstore\icon.png",

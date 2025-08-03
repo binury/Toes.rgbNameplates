@@ -1,11 +1,9 @@
 {
-  "name": "MyModName",
+  "name": "RGBNameplates",
   "version_number": "0.0.1",
-  "website_url": "https://github.com/binury/better_webfishing_mod_template",
-  "description": "[Mod description for your Thunderstore listing]",
+  "website_url": "https://github.com/binury/Toes.rgbNameplates",
+  "description": "Colored nameplates!",
   "dependencies": [
-    "[What you need to put here will vary but, e.g.: ]",
-    "NotNet-GDWeave-2.0.14",
-    "toes-Socks-0.3.0"
+    "toes-Socks-0.3.3"
   ]
-}   
+}

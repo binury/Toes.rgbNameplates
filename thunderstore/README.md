@@ -1,25 +1,21 @@
-# MyModName
+# RGB Nameplates
 
-A brief description of your mod. Images can be useful here especially if your mod has some cosmetic components. This is your
-chance to stop their doomscroll and show them why they should
-start using your mod rite meow.
+Making things a little more colorful, now your name matches your fur!
 
-<img src="https://i.imgur.com/mim5iuA.png" width="400">
 
-(But like, a picture of your mod. Pls no shitpost memes)
+<img src="https://i.imgur.com/JEMKPgM.png" width="600">
 
-## Usage
-How to use your mod. Sometimes users read this... I think. They
-definitely don't like reading though so be clear and concise and 
-have a little fun if you want.
+<br/>
+<a href='https://ko-fi.com/A0A3YDMVY' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 ## Known Issues
-- Isn't done yet
-- 
+- Nameplate colors are initially delayed, briefly, due to how the game loads in without knowing your own ID
+- Undoubtedly there will be mod conflicts probably relating to custom cosmetics
+
 
 ## Roadmap
-- Faster, stronger, better
-- Paid DLC
--
+- Bug fixes
+- Custom cosmetic compatibility improvement
+- Stylistic enhancements
 
-## [Changelog](https://thunderstore.io/c/webfishing/p/YOUR_ORG_NAME/YOUR_MOD_NAME/changelog)
+## [Changelog](https://thunderstore.io/c/webfishing/p/toes/rgbnameplates/changelog)

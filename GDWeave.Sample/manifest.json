@@ -1,11 +1,12 @@
 {
-  "Id": "Toes.MyModName",
-  "AssemblyPath": "MyModName.dll",
+  "Id": "Toes.RGBNameplates",
+  "AssemblyPath": "RGBNameplates.dll",
+  "PackPath": "RGBNameplates.pck",
   "Metadata": {
-    "Name": "The Coolest Latest Mod Without a Name Yet",
+    "Name": "RGB Nameplates",
     "Author": "Toes",
     "Version": "0.0.1",
-    "Description": "[This description is shown in some mod managers and might also be used in-game in Mod Settings menu]",
+    "Description": "RGB Nameplates",
     "Homepage": "https://ko-fi.com/toooes"
   }
 }
