@@ -1,0 +1,12 @@
+{
+  "Id": "Toes.RGBNameplates",
+  "AssemblyPath": "RGBNameplates.dll",
+  "PackPath": "RGBNameplates.pck",
+  "Metadata": {
+    "Name": "RGB Nameplates",
+    "Author": "Toes",
+    "Version": "0.1.0",
+    "Description": "RGB Nameplates",
+    "Homepage": "https://github.com/binury/Toes.rgbNameplates"
+  }
+}
