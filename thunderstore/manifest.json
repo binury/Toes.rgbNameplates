@@ -1,6 +1,6 @@
 {
     "name":  "RGBNameplates",
-    "version_number":  "0.0.2",
+    "version_number":  "0.1.0",
     "website_url":  "https://github.com/binury/Toes.rgbNameplates",
     "description":  "Whoa, colored nameplates",
     "dependencies":  [

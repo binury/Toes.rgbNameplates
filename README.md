@@ -18,4 +18,19 @@ Making things a little more colorful, now your name matches your fur!
 - Custom cosmetic compatibility improvement
 - Stylistic enhancements
 
+
+## License
+
+This project is licensed under the [Apache License 2.0](./LICENSE.txt).
+
+That means you’re free to use, fork, modify, and even commercialize this project, as long as you:
+
+- Keep the copyright notice and license text with the code  
+- Give credit where it’s due  
+- State any significant changes you’ve made  
+- Accept that the software is provided “as-is” with no warranty  
+
+For the full details, see the [LICENSE](./LICENSE.txt) file.
+
+
 ## [Changelog](https://thunderstore.io/c/webfishing/p/toes/rgbnameplates/changelog)
