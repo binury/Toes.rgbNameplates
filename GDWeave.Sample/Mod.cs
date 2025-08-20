@@ -41,7 +41,7 @@ public class Mod : IMod
 							var name_font = name_label["custom_fonts/normal_font"]
 							var title_font = title_label["custom_fonts/font"]
 							var RGBNameplates = get_node("/root/ToesRGBNameplates")
-
+							
 							var name_color = RGBNameplates._get_name_color(player_id)
 							name_label["custom_colors/font_color"] = name_color.to_html()
 							name_label["custom_colors/default_color"] = name_color.to_html()

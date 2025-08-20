@@ -33,4 +33,4 @@ That means you’re free to use, fork, modify, and even commercialize this proje
 For the full details, see the [LICENSE](./LICENSE.txt) file.
 
 
-## [Changelog](https://thunderstore.io/c/webfishing/p/toes/rgbnameplates/changelog)
+## [Changelog](https://thunderstore.io/c/webfishing/p/toes/RGBNameplates/changelog/)

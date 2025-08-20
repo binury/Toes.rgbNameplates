@@ -24,12 +24,10 @@ func _ready():
 
 func _on_ingame() -> void:
 	# Attempt to force a cosmetic update to "unstuck" our local player's name color from changing
-	yield(get_tree().create_timer(5), "timeout")
-	Network._send_actor_action(
-		Players.local_player.owner_id,
-		"_update_cosmetics",
-		[PlayerData.cosmetics_equipped.duplicate()]
-	)
+	yield(get_tree().create_timer(3.5), "timeout")
+	var new = PlayerData.cosmetics_equipped.duplicate()
+	Network._send_actor_action(Players.local_player.owner_id, "_update_cosmetics", [new])
+	Players.local_player._update_cosmetics(new)
 
 
 # RGBNameplates
