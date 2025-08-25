@@ -33,7 +33,7 @@ public class Mod : IMod
 						)
 						.With(
 							"""
-							
+
 							if player_id == -1: return
 
 							var name_label = get_node("VBoxContainer/Label")
@@ -41,7 +41,7 @@ public class Mod : IMod
 							var name_font = name_label["custom_fonts/normal_font"]
 							var title_font = title_label["custom_fonts/font"]
 							var RGBNameplates = get_node("/root/ToesRGBNameplates")
-							
+
 							var name_color = RGBNameplates._get_name_color(player_id)
 							name_label["custom_colors/font_color"] = name_color.to_html()
 							name_label["custom_colors/default_color"] = name_color.to_html()
@@ -64,8 +64,36 @@ public class Mod : IMod
 				.Build()
 		);
 
+		mi.RegisterScriptMod(
+			new TransformationRuleScriptModBuilder()
+				.ForMod(mi)
+				.Named("[RGB Nameplates] 2/2")
+				.Patching("res://Scenes/Entities/Player/player.gdc")
+				.AddRule(
+					new TransformationRuleBuilder()
+						.Named(
+							"Add Redundant title updates to improve compatibility with Calico cosmetic optimizations"
+						)
+						.Matching(
+							TransformationPatternFactory.CreateGdSnippetPattern(
+								"""
+								if not valid: data = PlayerData.FALLBACK_COSM.duplicate()
 
-		// }
+								"""
+							)
+						)
+						.Do(Operation.Prepend)
+						.With(
+							"""
+
+							title._update_title()
+
+							""",
+							1
+						)
+				)
+				.Build()
+		);
 	}
 
 	public void Dispose()
