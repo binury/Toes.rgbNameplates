@@ -1,12 +1,1 @@
-{
-  "Id": "Toes.RGBNameplates",
-  "AssemblyPath": "RGBNameplates.dll",
-  "PackPath": "RGBNameplates.pck",
-  "Metadata": {
-    "Name": "RGB Nameplates",
-    "Author": "Toes",
-    "Version": "0.0.2",
-    "Description": "RGB Nameplates",
-    "Homepage": "https://ko-fi.com/toooes"
-  }
-}
+../../../../GDWeave.Sample/bin/Release/net8.0/manifest.json

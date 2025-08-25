@@ -32,7 +32,8 @@ Compress-Archive -Path @(
    ".\thunderstore\icon.png",
    ".\thunderstore\manifest.json",
    ".\thunderstore\CHANGELOG.md",
-   ".\thunderstore\README.md"
+   ".\thunderstore\README.md",
+   ".\thunderstore\LICENSE"
 ) -DestinationPath $zipPath -Force
 
 if ($LASTEXITCODE -ne 0) {
