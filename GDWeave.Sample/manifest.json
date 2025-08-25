@@ -2,6 +2,7 @@
   "Id": "Toes.RGBNameplates",
   "AssemblyPath": "RGBNameplates.dll",
   "PackPath": "RGBNameplates.pck",
+  "Dependencies": ["Toes.Socks"],
   "Metadata": {
     "Name": "RGB Nameplates",
     "Author": "Toes",
